@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Language Basics">
+      <UniqueIdentifier>{38d02eeb-69b8-46e9-9444-01307efc5ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language Basics\Tokens">
+      <UniqueIdentifier>{89ec33f1-9c9a-4556-8629-c9a8adb20f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Language Basics\Tokens\Literals">
+      <UniqueIdentifier>{530b2c76-48d8-469e-b36e-2120ea255ee1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations">
+      <UniqueIdentifier>{9742e8f8-0c80-4203-a9b4-222acaf67c1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Scope">
+      <UniqueIdentifier>{847818a1-5a27-4833-9e37-453c3371fa6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Namespaces">
+      <UniqueIdentifier>{2c7b036b-7c84-4f52-9546-2048de651221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\NameLookup">
+      <UniqueIdentifier>{18dd5a7d-82d4-4521-8156-b49ebaba643a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Linkage">
+      <UniqueIdentifier>{eeb0234d-2df8-4e6d-ab28-54aa446b9f85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions">
+      <UniqueIdentifier>{9a87e513-80d8-4124-99fc-1cfc351cde6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements">
+      <UniqueIdentifier>{3d8e9663-7890-421a-9bad-44642328aa61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes">
+      <UniqueIdentifier>{6d3182d6-3d8b-4e6b-ac8c-f0ffddebba9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates">
+      <UniqueIdentifier>{a5e114e3-e503-483a-b31a-7df5b5f556ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library">
+      <UniqueIdentifier>{42ba49b2-b12b-4949-a7db-35eb3ba1a45f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Declarations And Definitions">
+      <UniqueIdentifier>{4b05b0a3-17f7-4093-9c42-ddd7189f0b02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Declarations And Definitions\Definitions">
+      <UniqueIdentifier>{5f65badf-d038-43f3-9e8d-408092a909f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Declarations And Definitions\Ambiguity">
+      <UniqueIdentifier>{520f5f8f-117f-490d-9734-13555fbbeda6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations">
+      <UniqueIdentifier>{65603dde-2eec-4e42-9e94-f0dc269cc344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Type Declarations">
+      <UniqueIdentifier>{497ff0fc-beb7-4e8a-9051-e2a16c9e6410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output">
+      <UniqueIdentifier>{55d72ef5-ef8d-443e-a7d4-fd7c01f3ab31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms">
+      <UniqueIdentifier>{0c391762-14bd-4d42-862e-f1200603554f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reference">
+      <UniqueIdentifier>{0f982493-507f-4159-aae7-d56a3c4d06e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reference\Preprocessor Reference">
+      <UniqueIdentifier>{4d561497-1408-430e-9b62-da664e24d68c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reference\Language Reference">
+      <UniqueIdentifier>{74055aaa-9421-487d-b380-7086ae37bb7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reference\Library Reference">
+      <UniqueIdentifier>{3460333c-8f08-4ffc-938a-d11a6acb495a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Reference\Compilar Extensions">
+      <UniqueIdentifier>{a3935848-03a8-4940-a5a4-82ab1d255214}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\NameLookup\Qualified Name Lookup">
+      <UniqueIdentifier>{79500505-c0f0-48b2-a5e5-bcd190c00e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\NameLookup\Unqualified Name Looup">
+      <UniqueIdentifier>{10287d17-cb3f-4205-90d8-55e742820b2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\NameLookup\Argument-Dependent Name Lookup">
+      <UniqueIdentifier>{c5ad4621-3d95-44a7-a40f-e83d5c67adec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Linkage\Scope Linkage">
+      <UniqueIdentifier>{e878a1e9-37f6-4dfb-8309-76aa55bb6fe3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Linkage\Language Linkage">
+      <UniqueIdentifier>{4cc78583-8359-45f1-bac1-f5b480c0d447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Type Declarations\Fundamental Types">
+      <UniqueIdentifier>{5cab2ef8-a509-4a01-b6f1-48ca29bca9fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Type Declarations\Enumerated Types">
+      <UniqueIdentifier>{0992fadc-be14-4358-99c1-213646bd1025}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Type Declarations\POD Types">
+      <UniqueIdentifier>{e1c948b8-b3d3-4127-8d63-7b6dc56187f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Type Declarations\Typedef Declarations">
+      <UniqueIdentifier>{a01c5e20-1ab3-4433-90d1-79eb4ac97746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Type Declarations\Elaborated Type Specifier">
+      <UniqueIdentifier>{5c6a74e7-bac4-4864-8823-9b11905924fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Specifiers">
+      <UniqueIdentifier>{fbfbd182-14a5-4760-b449-aaac6e9ac657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Declarators">
+      <UniqueIdentifier>{d85389a8-7325-41ac-891e-8c4c41ce8f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Initializers">
+      <UniqueIdentifier>{a5845a95-39ee-4688-b306-79b1ca05a3ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Object Lifetime">
+      <UniqueIdentifier>{3173d2d4-4b4e-4205-9740-e13a97bbadcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Specifiers\Storage class specifiers">
+      <UniqueIdentifier>{99650c4f-ce8d-439e-988f-4487da20bb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Specifiers\const and volatile qualifiers">
+      <UniqueIdentifier>{c6376cac-9e55-4986-b75d-104496aaf48c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Specifiers\Type specifiers">
+      <UniqueIdentifier>{113c4ceb-c294-4eae-9cd1-d99d30e831a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Specifiers\Using specifiers">
+      <UniqueIdentifier>{8244fe7a-d1dd-409f-9957-dd5cdad3d937}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Declarators\Arrays">
+      <UniqueIdentifier>{1f96c938-7ba1-4e07-97d1-ae94c238df27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Declarators\Pointers">
+      <UniqueIdentifier>{20e21735-cce7-44fc-87c9-c0ff024d6df5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Declarators\Function pointers">
+      <UniqueIdentifier>{41932e21-720e-44c3-abc9-7cb6ea030420}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Declarators\Member pointers">
+      <UniqueIdentifier>{d9c4dd33-d86b-450c-be70-4fc6136d092b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Declarators\References">
+      <UniqueIdentifier>{ea372610-f69b-43c6-a871-bc11daa563b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Initializers\Function-like initializers">
+      <UniqueIdentifier>{a68d4f13-5c52-4e80-b877-c8488fc52f39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Initializers\Assignment-like initializers">
+      <UniqueIdentifier>{427e4146-38af-4d37-8748-bfcdc5a9c815}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Initializers\Initializing arrays">
+      <UniqueIdentifier>{5e6cf7d9-74f3-4e84-bc5d-68cceec3dda9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Object Declarations\Initializers\Initializing scalars">
+      <UniqueIdentifier>{676c68ed-970a-47f9-86c9-128bf7e9d928}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Namespaces\Namespace Definitions">
+      <UniqueIdentifier>{99eacc6f-3eac-42ca-800c-7d82b2a8dba0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Namespaces\Namespace Aliases">
+      <UniqueIdentifier>{3278d3de-ec00-42b5-8936-ea715f2156cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Namespaces\using Declarations">
+      <UniqueIdentifier>{e5c41b26-99ed-47ea-8368-99e496b3fb75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Namespaces\using Directives">
+      <UniqueIdentifier>{e02406c7-ca5e-4cb4-a7f9-495feaef38ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Declarations\Namespaces\How to use namespaces">
+      <UniqueIdentifier>{488d88d9-aa7d-4155-96c3-2ca5fc362044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Lvalues and Rvalues">
+      <UniqueIdentifier>{837c1efe-be37-4d79-96b5-20e8cba5e939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Type Conversions">
+      <UniqueIdentifier>{e6ae65d7-df39-4804-bb13-196d96aeed98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Constant Expressions">
+      <UniqueIdentifier>{f937f868-6bc0-4b5e-ba17-4b5a9b109b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Evaluation">
+      <UniqueIdentifier>{9d4abd05-f22d-4d4a-9910-950408db8d5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules">
+      <UniqueIdentifier>{1b625007-6fac-4a09-afe0-5c161d42dd7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Type Conversions\Arithmetic Types">
+      <UniqueIdentifier>{2c20e819-e299-4b80-950e-6b13e167d5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Type Conversions\Type Promotion">
+      <UniqueIdentifier>{80f45606-9344-42b3-a803-3248a8cc3796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Type Conversions\Arithmetic Type COnversions">
+      <UniqueIdentifier>{a003eca3-3c2d-41fe-8040-f9660b602f44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Type Conversions\Implicit Numeric Conversions">
+      <UniqueIdentifier>{f3b684a1-6790-4527-987b-3ee8fce56ad0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Type Conversions\Lvalue Conversions">
+      <UniqueIdentifier>{53b415c7-2c16-4327-8d3a-38a1e1df3de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Type Conversions\Conversions to boo">
+      <UniqueIdentifier>{9ddeca0c-ac06-4103-93fd-a0c2fc794740}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Type Conversions\Type Casts">
+      <UniqueIdentifier>{13e7c98e-f6cf-474f-9322-509f1c528b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Constant Expressions\Integral Constant Expressions">
+      <UniqueIdentifier>{b4d6ad66-1c3c-4ce4-9572-52f92ef121c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Constant Expressions\Null pointers">
+      <UniqueIdentifier>{f9e992df-75c0-4f64-8d93-d5fbb9254a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Evaluation\Sequence Points">
+      <UniqueIdentifier>{e54dfe5e-9468-41cb-abc6-a8bce5d35367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Evaluation\Order of Evaluation">
+      <UniqueIdentifier>{9bf199dd-be25-4763-974a-3aac95951ac0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Evaluation\Short-Circuit Evaluation">
+      <UniqueIdentifier>{1825b769-aefc-401f-b031-9ff51149dcee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Primary Expressions">
+      <UniqueIdentifier>{d89d1522-e3be-4a0b-a28e-1b2359bfd6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Postfix Expressions">
+      <UniqueIdentifier>{f98b52d9-4f05-4e07-b780-10b4841b580e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Unary Expressions">
+      <UniqueIdentifier>{9a451c6f-46a5-4fa1-9fa7-cfb8b5d4c30e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Cast Expressions">
+      <UniqueIdentifier>{edc80439-a7fb-4dcb-b934-e5b567da3abe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Pointer-to-Member Expressions">
+      <UniqueIdentifier>{707d48d5-b498-474b-804b-172c0966b7a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Multiplicative Expressions">
+      <UniqueIdentifier>{5ce931af-ec2e-423c-b72c-2f36e6d13491}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Additive Expressions">
+      <UniqueIdentifier>{6f9810cc-25e2-4186-b081-dd10897bf391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Shift Expressions">
+      <UniqueIdentifier>{2547ea78-755c-47df-a5e3-584475196368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Relational Expressions">
+      <UniqueIdentifier>{a30ca650-b3ea-4c29-bcde-2a4d4d4fdab4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Equality Expressions">
+      <UniqueIdentifier>{f0e565c5-6ae9-46f8-9705-8a19761dd6b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Bitwise Exclusive Or Expressions">
+      <UniqueIdentifier>{8bfd6f86-be8a-441c-8abc-822148036e80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Bitwise Inclusive Or Expressions">
+      <UniqueIdentifier>{a61d6c3f-c0dc-43a1-b276-c76247af5281}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Logical And Expressions">
+      <UniqueIdentifier>{96f2d694-adb1-416d-87e5-f75b94b7d0d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Logical Or Expressions">
+      <UniqueIdentifier>{505d44b8-188c-4de7-becc-80b208df1b07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Conditional Expressions">
+      <UniqueIdentifier>{f1094a58-5579-483e-9924-3e52a432370d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Assignment Expressions">
+      <UniqueIdentifier>{9c026ec6-94fb-45b8-8340-16ee0a96c5d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Expressions\Expression Rules\Comma Expressions">
+      <UniqueIdentifier>{f256573c-bcae-407e-8d7e-da3ba368f61b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Expression Statments">
+      <UniqueIdentifier>{8e42ccf4-027b-4d31-b85f-dd261584a50f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Declarations">
+      <UniqueIdentifier>{7f45b56f-49cb-4f1e-a2d8-2eec4f492846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Compound statements">
+      <UniqueIdentifier>{5f0fdf5f-b4c8-4e9c-8c46-21ce79260c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Selections">
+      <UniqueIdentifier>{723cc40f-0ff0-4a8b-9a35-c5e2a2695941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Loops">
+      <UniqueIdentifier>{82c70fcd-8f3c-4f55-8dbd-9b5747d985b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Control Statments">
+      <UniqueIdentifier>{8e040c3a-9ab3-4c39-9d06-82290e8b60e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Handling Exceptions">
+      <UniqueIdentifier>{a0ef3f38-a8a3-49e4-b117-e6b4c0caa10a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Declarations\Declrations Statements">
+      <UniqueIdentifier>{f7a0a19d-8ea2-46f1-9734-7e3c1c8400ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Declarations\Condition Declarations">
+      <UniqueIdentifier>{28362ab6-a288-435d-a336-eb88cebd1d2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Selections\if Statements">
+      <UniqueIdentifier>{a6b6a44f-7eca-4fc8-8c27-de95b347a2ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Selections\switch Statements">
+      <UniqueIdentifier>{6208552b-c81a-4d9f-bf32-ace331625201}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Loops\while Statements">
+      <UniqueIdentifier>{37d1ccc4-1d32-44ed-995a-0e0339c137db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Loops\for Statements">
+      <UniqueIdentifier>{60213d85-7718-45db-912f-1c4fb2da1b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Statements\Loops\do Statements">
+      <UniqueIdentifier>{df09ce2a-258a-4e90-9c0e-c62687900f8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Class Definitions">
+      <UniqueIdentifier>{46efe3c9-e15c-407d-9948-0b66633ff1a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Data Members">
+      <UniqueIdentifier>{652faad6-3b3c-4aae-8fcb-7be4fc26ba25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions">
+      <UniqueIdentifier>{53489e45-9068-4e10-8c1c-93f8c780cefe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Inheritance">
+      <UniqueIdentifier>{7331612c-108b-4ff7-841a-d4617b66dc3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Access Specifiers">
+      <UniqueIdentifier>{59517272-1e44-4e87-bfa2-a8655a3ee9ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Friends">
+      <UniqueIdentifier>{b322b4f4-c5e7-4985-8f46-8f86d6f90be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Nested Types">
+      <UniqueIdentifier>{54c1a577-4b5e-43ba-bf89-660fc28cb984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Class Definitions\Plain Old Data">
+      <UniqueIdentifier>{ea22b544-4d4f-4900-86b2-138f1f15b9a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Class Definitions\Trivial Classes">
+      <UniqueIdentifier>{54fa37f7-76a1-4307-b1db-d3f792376c0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Class Definitions\Unions">
+      <UniqueIdentifier>{ca0ab06f-a3da-43a3-a50f-d81fe171644b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Class Definitions\Local Classes">
+      <UniqueIdentifier>{1667d911-1036-4f64-b591-112613780d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Data Members\Data Layout">
+      <UniqueIdentifier>{40ea196a-551d-4f06-baa1-d52c65bebe58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Data Members\Mutable Data Members">
+      <UniqueIdentifier>{5a50db38-2bff-4f3d-8604-678577913047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Data Members\Bit-fields">
+      <UniqueIdentifier>{b9603da9-912c-4263-80db-62fe28006e50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Data Members\Static Data Members">
+      <UniqueIdentifier>{e8f9e386-a850-4e7d-8982-c7ce98723d34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Pointers-to-Members">
+      <UniqueIdentifier>{291687bf-5967-4ff3-b652-05f3170b6c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\this Pointer">
+      <UniqueIdentifier>{8a2e1f3b-cade-4f48-9d54-132b37e5c16d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Static Member Functions">
+      <UniqueIdentifier>{1dcc0016-2e4d-4324-a336-b858b6dca98e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Constructors">
+      <UniqueIdentifier>{62f39861-efc5-4ed4-8a4b-6c936b9d950f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Destructors">
+      <UniqueIdentifier>{313a7c1a-b0e0-47aa-be0c-7fd1f137214c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Implicit Member Functions">
+      <UniqueIdentifier>{4f7e61d1-0212-4031-9f9c-fce654276a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Constructors\Declaring constructors">
+      <UniqueIdentifier>{fde61677-6be8-422d-8fd3-a9b1d4c83aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Constructors\Special constructors">
+      <UniqueIdentifier>{812c6046-6457-40e0-b4bd-f55c79b06b74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Constructors\Calling constructors">
+      <UniqueIdentifier>{9b3a741b-d269-4fc3-bd75-7224e1172dd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Constructors\Throwing exceptions during construction">
+      <UniqueIdentifier>{07160839-4f40-4860-bbb9-abd29b114c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Implicit Member Functions\Implicit default constructor">
+      <UniqueIdentifier>{06f77c6a-7e3e-47ab-8010-8787e224ff03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Implicit Member Functions\Implicit copy constructor">
+      <UniqueIdentifier>{055b6bcf-8474-49a4-beef-ef818bedd822}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Implicit Member Functions\Implicit copy assignment operator">
+      <UniqueIdentifier>{9a984cdf-2a04-492e-9230-ee6aca202df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Member functions\Implicit Member Functions\Implicit destructor">
+      <UniqueIdentifier>{21fb80ad-5eae-4a61-affe-33372f36006a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Inheritance\Virtual Functions">
+      <UniqueIdentifier>{9d85eafd-cee0-485d-bb98-967f59f14deb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Inheritance\Covariant Return Types">
+      <UniqueIdentifier>{850f21c1-a201-4d1e-bcb1-44bddc93c9c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Inheritance\Pure Virtual Functions">
+      <UniqueIdentifier>{9f669ea5-f2b9-4ccc-98f7-c2ceeaab0973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Inheritance\Abstract Classes">
+      <UniqueIdentifier>{45f2b839-6996-4fa5-b618-c90eb7e2b056}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Inheritance\Multiple Inheritance">
+      <UniqueIdentifier>{91c07533-5bfe-4ca8-be55-d14486ee49fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Inheritance\Virtual Inheritance">
+      <UniqueIdentifier>{c4fd8c46-f7c3-42ea-81fd-69ce09405f36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Classes\Inheritance\Polymorphic Constructos and Destructors">
+      <UniqueIdentifier>{832122fe-1719-4828-91b2-16edaa544c97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Overview of Templates">
+      <UniqueIdentifier>{2369a9fa-ed9c-4f90-9c38-826efa3e9d3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Template Declrations">
+      <UniqueIdentifier>{893b7b5b-752e-4266-824f-11a6e3afc8a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Function Templates">
+      <UniqueIdentifier>{52b8ee69-3343-4a2b-a1f4-aa2e1c0389cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Class Templates">
+      <UniqueIdentifier>{d764aae0-21fd-449a-9bcf-fed463c1d6d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Specialization">
+      <UniqueIdentifier>{2ba92195-b147-412b-9770-b20eb6721df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Partial Specialization">
+      <UniqueIdentifier>{c814c854-769a-4f54-b3f2-ce20f59aff93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Instantiation">
+      <UniqueIdentifier>{cf00004f-449f-465b-8708-c71d978cf082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Name Lookup">
+      <UniqueIdentifier>{a4709482-7b72-4dc7-b49c-4741202f492e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Tricks and Templates">
+      <UniqueIdentifier>{08eb63e2-9865-49b2-a531-fe776ae162ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Compiling Templates">
+      <UniqueIdentifier>{88f47458-64d2-48ab-b6df-f0aa657c6a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Function Templates\Function Signatures">
+      <UniqueIdentifier>{69834b5f-026f-4a58-812b-ee4616b0f3cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Function Templates\Deducing Argument Types">
+      <UniqueIdentifier>{0c17deab-db7b-4acc-b38a-16c8e7454910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Function Templates\Overloading">
+      <UniqueIdentifier>{f93e9852-3b7f-4d15-9298-4b77eca72f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Function Templates\Operators">
+      <UniqueIdentifier>{5af8e5aa-c115-44d6-84bc-6cdd1f205a6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Class Templates\Member Templates">
+      <UniqueIdentifier>{70825ae6-c892-4281-94ab-0eea046996d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Class Templates\Friends">
+      <UniqueIdentifier>{473e6893-498a-4c26-8938-bfea636ed0fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Name Lookup\Dependant Names">
+      <UniqueIdentifier>{5e12eaee-9b28-4295-89f4-9b2f34248b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Name Lookup\Resolving Names">
+      <UniqueIdentifier>{312b4d93-bf67-4345-9ed9-9e03b01fdf78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Name Lookup\Hiding Names">
+      <UniqueIdentifier>{8a16cac1-bb5e-4812-a782-4b9947524788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Templates\Name Lookup\Using Type Names">
+      <UniqueIdentifier>{e3a862ea-35f2-441c-b533-56138c30c444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Overview of the Standard LIbrary">
+      <UniqueIdentifier>{0f209d38-a850-4813-9dd7-a96f3f1b31df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\C Library Wrappers">
+      <UniqueIdentifier>{43894ede-44f4-4167-a194-aa673eb9155a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Wide and Multibyte Characters">
+      <UniqueIdentifier>{63ae622e-7597-4808-bf84-6f79e6ce2337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Traits and Policies">
+      <UniqueIdentifier>{9d1b1a3b-bfd4-4e8b-92a8-131ba271f365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Allocators">
+      <UniqueIdentifier>{b1aa35ba-1bc0-4636-9b74-3f2f4a6bb6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Numerics">
+      <UniqueIdentifier>{8f042c01-fa62-48e6-916d-8512a7947f88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Wide and Multibyte Characters\Wide Characters">
+      <UniqueIdentifier>{94569d57-c182-4e2e-b27a-4692446d44c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Wide and Multibyte Characters\Multibyte Characters">
+      <UniqueIdentifier>{699233aa-cd66-42d6-a615-8f85b46ea393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Wide and Multibyte Characters\Shift State">
+      <UniqueIdentifier>{0cceb1ec-9751-4678-b8fd-04087d118e19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Traits and Policies\Character traits">
+      <UniqueIdentifier>{ca02dae9-0a5e-4366-9a12-68d3e58b6d91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Traits and Policies\Iterator Traits">
+      <UniqueIdentifier>{e356851c-7e3d-4877-8334-6913a9512c46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Traits and Policies\Custom Traits">
+      <UniqueIdentifier>{a69e794f-fcb1-41e8-a510-bff89d1a316e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Allocators\Using Allocators">
+      <UniqueIdentifier>{39fa75fa-b297-4fae-9360-b830312d2659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Standard Library\Allocators\Custom Allocators">
+      <UniqueIdentifier>{20232882-414c-4dab-b519-89f00f49e8b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Introduction to I/O Streams">
+      <UniqueIdentifier>{3c89f2d9-0a77-4b72-9c9e-7dcfb20f2c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Text I/O">
+      <UniqueIdentifier>{a2e7012d-7ae5-4900-a134-1cc6d13b9944}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Binary I/O">
+      <UniqueIdentifier>{21b87f93-4f97-4657-865f-dae55046b4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Stream Buffers">
+      <UniqueIdentifier>{25dcc3fd-f493-48f0-a22c-ec5ad0024e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Manipulators">
+      <UniqueIdentifier>{c3be6495-5d5e-4a32-a13c-bb804f2f0ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Introduction to I/O Streams\Custom I/O Operators">
+      <UniqueIdentifier>{43b6f3ec-9740-4bcc-9f0a-8f65302e84a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Introduction to I/O Streams\The C Standard I/O Library">
+      <UniqueIdentifier>{84e1ecdc-4575-4e83-837e-d47f35fc9e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Introduction to I/O Streams\C++ I/O Headers">
+      <UniqueIdentifier>{6ad1281e-1ae9-4140-a6f4-8db03f24274a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Text I/O\Formatted Input">
+      <UniqueIdentifier>{38f5a203-5b9a-4845-bfe9-bc76dc8c3a60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Text I/O\Fromatted Output">
+      <UniqueIdentifier>{09763623-005b-4a1e-8ccf-ebda1fe4dcb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Manipulators\Standard Manipulators">
+      <UniqueIdentifier>{4346de15-d4fd-4aab-bcf4-ad5306bf7ed2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Manipulators\Custom Manipulators">
+      <UniqueIdentifier>{36f5d274-b48e-4e80-b650-a14154210cd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Input And Output\Errors and Exceptions">
+      <UniqueIdentifier>{ac9348f5-c13f-4c75-84ca-7a315cc14176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers">
+      <UniqueIdentifier>{e57cec86-5905-4423-b8e3-ca29c45f873e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Iterators">
+      <UniqueIdentifier>{01a84db6-2e58-482f-91c1-901ab2d92518}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Algorithms">
+      <UniqueIdentifier>{8aab4f81-3159-46b9-a8e9-22bfacdf3607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Standard Containers">
+      <UniqueIdentifier>{2b984a56-50de-4d58-92a8-2edfc7e0d873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Container Adapters">
+      <UniqueIdentifier>{0a1e2b63-09d6-47f9-9340-88cbc0a76615}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Pseudo-Containers">
+      <UniqueIdentifier>{6938722a-af10-4391-a341-de7caa92b47b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Using Containers">
+      <UniqueIdentifier>{17efe5f1-0fca-4288-9c60-7f4af4a68fea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Container Requirements">
+      <UniqueIdentifier>{5f733e79-353b-4bae-bb32-d1fc0669c62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Container Requirements\Member types">
+      <UniqueIdentifier>{bafaf185-e6a1-4d8b-88d6-7ab7cd6e1773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Container Requirements\Member functions">
+      <UniqueIdentifier>{dc793d25-aa72-401a-8fe9-4b6c9f13af68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Container Requirements\Exceptions">
+      <UniqueIdentifier>{59335a91-a6f1-4922-a877-666f8d9ca21a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Using Containers\Value type requirements">
+      <UniqueIdentifier>{ec72a25e-34a9-4cae-ba67-4ecaefa1243c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Using Containers\Inserting values">
+      <UniqueIdentifier>{42960e7c-d026-4f4d-8904-3332040f7e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Using Containers\Erasing values">
+      <UniqueIdentifier>{cca5337a-f07d-417a-852b-c45b4ef2d166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Containers\Using Containers\Searching">
+      <UniqueIdentifier>{0b1f3dd7-e5ef-495f-98ee-4274872b32c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Iterators\Iterator Categories">
+      <UniqueIdentifier>{94d72483-9cb2-4bb6-ac91-56171d1e001d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Iterators\Iterator Safety">
+      <UniqueIdentifier>{92e20b93-a5bb-4b7a-b488-03375e9f35a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Iterators\Special Iterators">
+      <UniqueIdentifier>{d8781cbb-6da2-4257-aca6-4d692bf868d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Iterators\Custom Iterators">
+      <UniqueIdentifier>{7933c17a-b2ba-49a8-b0ef-e1c4a53594cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Iterators\const_interator">
+      <UniqueIdentifier>{921e3539-c38d-4d84-a95e-cd8c801893dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Iterators\Reverse Iterators">
+      <UniqueIdentifier>{3adff506-d2b3-431c-8a6c-135221d24c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Algorithms\How Algorithms Work">
+      <UniqueIdentifier>{e1922a51-8194-4bdf-917b-43c816f23867}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Algorithms\Standard Algorithms">
+      <UniqueIdentifier>{4fb98545-f70a-4958-ab20-4d0561d2d920}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Containers, Iterations, and Algorithms\Algorithms\Custom Algorithms">
+      <UniqueIdentifier>{be5e8293-4427-4212-b703-e5e84c881efd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Preprocessor reference">
+      <UniqueIdentifier>{1d2c7832-8ff8-46a9-a1af-8b0158383499}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Language Reference">
+      <UniqueIdentifier>{b1b0ae7b-f2db-4924-ac81-9b9633826a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Library Reference">
+      <UniqueIdentifier>{be53bebd-0c54-4afc-ad8d-463c4796ba02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Compiler Extensions">
+      <UniqueIdentifier>{80c88d21-9763-4211-a3d9-16c5a6cc726b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Account.h">
+      <Filter>Header Files\Language Basics\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="Identifiers.h">
+      <Filter>Header Files\Language Basics\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="Keywords.h">
+      <Filter>Header Files\Language Basics\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="Literals.h">
+      <Filter>Header Files\Language Basics\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="Symbols.h">
+      <Filter>Header Files\Language Basics\Tokens</Filter>
+    </ClInclude>
+    <ClInclude Include="Comments.h">
+      <Filter>Header Files\Language Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterSet.h">
+      <Filter>Header Files\Language Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="AlternativeTokens.h">
+      <Filter>Header Files\Language Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="Trigraphs.h">
+      <Filter>Header Files\Language Basics</Filter>
+    </ClInclude>
+    <ClInclude Include="IntegerLiterals.h">
+      <Filter>Header Files\Language Basics\Tokens\Literals</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingPointLiterals.h">
+      <Filter>Header Files\Language Basics\Tokens\Literals</Filter>
+    </ClInclude>
+    <ClInclude Include="BooleanLiterals.h">
+      <Filter>Header Files\Language Basics\Tokens\Literals</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterLiterals.h">
+      <Filter>Header Files\Language Basics\Tokens\Literals</Filter>
+    </ClInclude>
+    <ClInclude Include="StringLiterals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Account.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
